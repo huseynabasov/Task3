@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 3px solid #29302b;
+        border-collapse: collapse;
+        width: 40%;
+        text-align: center;
+      }
+      th {
+        background-color: #b7e5b4;
+        width: 20%;
+      }
+      td {
+        background-color: #b5c1d1;
+      }
+    </style>
+  </head>
+  <body bgcolor="#5e6174">
+    <table align="center" height="600px" bgcolor="red">
+      <thead>
+        <tr>
+          <th colspan="4" style="height: 40px">Muraciet et</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th style="width: 20%"> 
+            Şəkil yükləyin 
+          </th>
+          <td colspan="3">
+            <input type="file" id="img" name="img" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Ad
+          </th>
+          <td colspan="3">
+            <input type="text" id="ad" name="ad" placeholder="Ad" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Soyad
+          </th>
+          <td colspan="3">
+            <input type="text" id="soyad" name="soyad" placeholder="Soyad" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Doğum tarixi
+          </th>
+          <td colspan="3">
+            <input type="date" id="tarix" name="tarix" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Cinsiyyet
+          </th>
+          <td colspan="3">
+            <form>
+              <label for="cinsiyyet"><strong>Kişi</strong></label>
+              <input type="radio" id="" name="cinsiyyet" />
+              <label for="cinsiyyet"><strong>Qadın</strong></label>
+              <input type="radio" id="" name="cinsiyyet" />
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Email
+          </th>
+          <td colspan="3">
+            <input type="email" name="email" id="email" placeholder="Emailinizi yazin">
+          </td>
+        </tr>
+        <tr>
+          <th rowspan="2">Əlaqə</th>
+          <th colspan="2" style="width: 8%; background-color: #ccd3cb">Tel:</th>
+          <td>
+            <input type="text" id="" name="" placeholder="phone" />
+          </td>
+        </tr>
+        <tr style="border-bottom: 4px solid #29302b;">
+          <th colspan="2" style="background-color: #ccd3cb">Tel:</th>
+          <td>
+            <input type="text" id="" name="" placeholder="phone" />
+          </td>
+        </tr>
+        <tr>
+          <th>Tecrubeleriniz</th>
+          <td colspan="3">
+            <textarea
+              name=""
+              id=""
+              cols="50"
+              rows="3"
+              width="200px"
+              placeholder="Tecrubelerinizi qeyd edin..."
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>Xarici dillər</th>
+          <td colspan="3">
+            <form>
+              <label for="lang">İngilis dili</label>
+              <input type="radio" id="lang" name="lang" />
+              <label for="lang">Turk dili</label>
+              <input type="radio" id="lang" name="lang" />
+              <label for="lang">Rus dili</label>
+              <input type="radio" id="lang" name="lang" />
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <th>Əsgərlik</th>
+          <td colspan="3">
+            <select name="esger" id="esger">
+              <option value="xidmetde_olub">Xidmətdə olub</option>
+              <option value="xidmetde_olmayib">Xidmətdə olmayıb</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Təhsil</th>
+          <td colspan="3">
+            <select name="tehsil" id="tehsil">
+              <option value="orta">Orta təhsil</option>
+              <option value="ali">Ali təhsil</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr align="center">
+          <th colspan="4" style="height: 40px">
+            <input type="submit" value="Təsdiq et" />
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+    <hr color="#AFDAD3" />
+    <hr color="#AFDAD3" />
+    <br />
+    <div align="center">
+      <h2>Bizim Haqqimizda</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GnwydSxAZag?si=d2I6juO2zw-g0C-x"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>

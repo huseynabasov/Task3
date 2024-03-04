@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 70%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table align="center">
+      <thead>
+        <tr>
+          <th colspan="2">Müraciət</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label for="img">Şəkil yükləyin</label>
+          </td>
+          <td>
+            <input type="file" id="img" name="img" />
+          </td>
+        </tr>
+        <tr>
+          <td>Ad</td>
+          <td>
+            <input type="text" id="ad" name="ad" placeholder="Ad"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Soyad</td>
+          <td>
+            <input type="text" id="soyad" name="soyad" placeholder="Soyad"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="birthday">Doğum tarixi</label>
+          </td>
+          <td>
+            <input type="date" id="birthday" name="birthday" />
+          </td>
+        </tr>
+        <tr>
+          <td>Cinsiyyət</td>
+          <td>
+            <label for="html">Kişi</label>
+            <input type="radio" id="html" name="fav_language" value="HTML" />
+            <label for="html">Qadın</label>
+            <input type="radio" id="html" name="fav_language" value="HTML" />
+          </td>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email" >Email</label> 
+          </td>
+          <td>
+            <input type="email" id="email" name="email" placeholder="Emailini yazın">
+          </td>
+        </tr>
+        <tr>
+          <td>Əlaqə</td>
+          <td>tel:</td>
+          <td>tel:</td> 
+        </tr>
+        <tr>
+          <td>Təcrübələriniz</td>
+          <td>
+            <textarea name="tecrube" id="tecrube" cols="30" rows="3" placeholder="Təcrübələrinizi qeyd edin..."></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Xarici dillər</td>
+          <td>
+            <label for="en">İngilis dili</label>
+            <input type="radio" id="en" name="en" value="HTML" />
+            <label for="tr">Türk dili</label>
+            <input type="radio" id="tr" name="tr" value="HTML" />
+            <label for="ru">Rus dili</label>
+            <input type="radio" id="ru" name="ru" value="HTML" />
+          </td>
+        </tr>
+        <tr>
+          <td>Əsgərlik</td>
+          <td>
+            <select name="esger" id="esger">
+              <option value="xidmetde_olub">Xidmətdə olub</option>
+              <option value="xidmetde_olmayib">Xidmətdə olmayıb</option> 
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Təhsil</td>
+          <td>
+            <select name="tehsil" id="tehsil">
+              <option value="orta">Orta təhsil</option>
+              <option value="ali">Ali təhsil</option> 
+            </select>
+          </td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">
+            <input type="submit" value="Təsdiq et">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
